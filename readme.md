@@ -66,5 +66,6 @@ Stay Tuned!
 ---
 
 <img width="1792" alt="React Shop - Hero Screenshot" src="https://user-images.githubusercontent.com/88791252/205941520-1e5a4058-2476-4dbf-adf9-ccd8699b8b9a.png">
----
+
+----
 # Jalal Mitali
