@@ -4,6 +4,7 @@ specifiers:
   '@heroicons/react': ^2.0.11
   '@reduxjs/toolkit': ^1.8.5
   '@splidejs/react-splide': ^0.7.10
+  '@splidejs/splide': ^4.1.4
   '@types/react': ^18.0.17
   '@types/react-dom': ^18.0.6
   '@vitejs/plugin-react': ^2.1.0
@@ -22,6 +23,7 @@ dependencies:
   '@heroicons/react': 2.0.13_react@18.2.0
   '@reduxjs/toolkit': 1.9.1_k4ae6lp43ej6mezo3ztvx6pykq
   '@splidejs/react-splide': 0.7.12
+  '@splidejs/splide': 4.1.4
   csstype: 3.1.1
   lodash: 4.17.21
   react: 18.2.0

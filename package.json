@@ -1,5 +1,5 @@
 {
-  "name": "nike-store-commerce",
+  "name": "reactshop",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,6 +12,7 @@
     "@heroicons/react": "^2.0.11",
     "@reduxjs/toolkit": "^1.8.5",
     "@splidejs/react-splide": "^0.7.10",
+    "@splidejs/splide": "^4.1.4",
     "csstype": "^3.0.10",
     "lodash": "^4.17.21",
     "react": "^18.2.0",
