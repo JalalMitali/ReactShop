@@ -2,7 +2,6 @@
 
 
 <img width="1792" alt="React Shop - Hero Screenshot / Black" src="https://user-images.githubusercontent.com/88791252/205992736-d021d53c-0f4b-450c-a76c-313bc5424e42.png">
-<img width="1792" alt="React Shop - Hero Screenshot" src="https://user-images.githubusercontent.com/88791252/205941520-1e5a4058-2476-4dbf-adf9-ccd8699b8b9a.png">
 
 
 ---
@@ -64,5 +63,8 @@ Open [http://localhost:5173](http://localhost:3000) with your browser to see the
 [ Swift - iOS Swift UI ](https://github.com/JalalMitali/SwiftShop)
 ---
 Stay Tuned!
---
+---
+
+<img width="1792" alt="React Shop - Hero Screenshot" src="https://user-images.githubusercontent.com/88791252/205941520-1e5a4058-2476-4dbf-adf9-ccd8699b8b9a.png">
+---
 # Jalal Mitali
