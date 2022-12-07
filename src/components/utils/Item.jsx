@@ -7,6 +7,7 @@ import { setAddItemToCart, setOpenCart } from "../../app/CartSlice";
 const Item = ({
   ifExists,
   _id,
+  alt,
   color,
   style,
   title,
@@ -28,6 +29,7 @@ const Item = ({
       ifExists,
       _id,
       color,
+      style,
       title,
       slug,
       description,
@@ -35,6 +37,7 @@ const Item = ({
       added,
       tags,
       categories,
+      btn,
       rating,
       price,
     };
@@ -50,7 +53,7 @@ const Item = ({
 
   return (
     <>
-      <div
+     <div
         className={`relative bg-gradient-to-b ${style} grid items-center ${
           ifExists ? "justify-items-start" : "justify-items-center"
         } rounded-xl py-4 px-5 transition-all duration-700 ease-in-out w-full hover:scale-105`}
@@ -92,7 +95,7 @@ const Item = ({
               className="bg-white/90 blur-effect-theme button-theme px-2 py-1 shadow shadow-sky-200 text-sm text-black"
               onClick={()=> {onAddToCart(); onCartToggle();}}
             >
-              "Buy Now"
+              Buy Now
             </button>
           </div>
         </div>
@@ -103,7 +106,7 @@ const Item = ({
         >
           <img
             src={image}
-            alt={`img/item-img/${_id}`}
+            alt={alt}
             className={`transitions-theme hover:-rotate-12 ${
               ifExists
                 ? "h-auto w-64 lg:w-56 md:w-48 -rotate-[35deg]"

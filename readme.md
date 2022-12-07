@@ -6,7 +6,7 @@
 
 ---
 #  Progress ( 0% )
-- [ ] Add Home Page  
+- [x] Add Home Page  
 - [ ] Add Product Page  
 - [ ] Add Collection Page  
 - [ ] Add Shopping Cart
@@ -15,7 +15,7 @@
 - [ ] Add Auth Pages
 - [ ] Add Profile Page
 - [ ] Add UpSell & PostSell
-- [ ] Deploy to Vercel  
+- [x] Deploy to Vercel  
 ---
 
 <img width="1792" alt="React Shop - Main Screenshot / Black" src="https://user-images.githubusercontent.com/88791252/205992999-4a3bd004-c973-4975-8a73-a25fc2fa1510.png">
