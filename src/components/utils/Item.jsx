@@ -6,21 +6,38 @@ import { setAddItemToCart, setOpenCart } from "../../app/CartSlice";
 
 const Item = ({
   ifExists,
-  id,
+  _id,
   color,
-  shadow,
+  style,
   title,
-  text,
-  img,
+  slug,
+  description,
+  image,
+  added,
+  tags,
+  categories,
   btn,
   rating,
   price,
 }) => {
   //   console.log(id)
+  /* console.log(shadow); */
   const dispatch = useDispatch();
-
   const onAddToCart = () => {
-    const item = { id, title, text, img, color, shadow, price };
+    const item = {
+      ifExists,
+      _id,
+      color,
+      title,
+      slug,
+      description,
+      image,
+      added,
+      tags,
+      categories,
+      rating,
+      price,
+    };
 
     dispatch(setAddItemToCart(item));
   };
@@ -34,7 +51,7 @@ const Item = ({
   return (
     <>
       <div
-        className={`relative bg-gradient-to-b ${color} ${shadow} grid items-center ${
+        className={`relative bg-gradient-to-b ${style} grid items-center ${
           ifExists ? "justify-items-start" : "justify-items-center"
         } rounded-xl py-4 px-5 transition-all duration-700 ease-in-out w-full hover:scale-105`}
       >
@@ -47,7 +64,7 @@ const Item = ({
             {title}
           </h1>
           <p className="text-slate-200 filter drop-shadow text-base md:text-sm font-normal">
-            {text}
+            {description}
           </p>
 
           <div className="flex items-center justify-between w-28 my-2">
@@ -75,7 +92,7 @@ const Item = ({
               className="bg-white/90 blur-effect-theme button-theme px-2 py-1 shadow shadow-sky-200 text-sm text-black"
               onClick={()=> {onAddToCart(); onCartToggle();}}
             >
-              {btn}
+              "Buy Now"
             </button>
           </div>
         </div>
@@ -85,8 +102,8 @@ const Item = ({
           }`}
         >
           <img
-            src={img}
-            alt={`img/item-img/${id}`}
+            src={image}
+            alt={`img/item-img/${_id}`}
             className={`transitions-theme hover:-rotate-12 ${
               ifExists
                 ? "h-auto w-64 lg:w-56 md:w-48 -rotate-[35deg]"
