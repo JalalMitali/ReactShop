@@ -9,7 +9,7 @@ const App = () => {
   const [popularsales, setPopularItems] = useState([]);
   const [topRatedItems, setTopRatedItems] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3000/products")
+    fetch("https://nest.jalalmitali.com/products")
       .then(res => res.json())
       .then(
         (result) => {
